@@ -1,0 +1,77 @@
+body{
+	background-image: url("background.jpg");
+	color:#ffffff;
+}
+#wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+/* FONTS */
+@font-face {
+   font-family: headerFont;
+   src: url(font/VAGRoundedBlackTr.ttf);
+}
+@font-face {
+   font-family: descriptionFont;
+   src: url(font/VAGRoundedBoldTr.ttf);
+}
+@font-face{
+	font-family: detailsFont;
+	src: url(font/VAGRoundedLightTr.ttf);
+}
+/* LEFT SIDE */
+#left{
+	float:left;
+	margin-left:50px;
+	width: 300px;
+	text-align: right;
+	margin-left: -30px;
+}
+#header{
+	margin-top: -30px;
+	margin-left: -90px;
+	
+}
+#description{
+	font-family: descriptionFont;
+	line-height: 40px;
+	font-size: 25px;
+}
+#details{
+	font-family: detailsFont;
+	text-align: right;
+	font-size: 18px;
+}
+#yükle{
+	font-family: descriptionFont;
+	font-size:20px;
+}
+#market{
+	margin-top: 38px;
+}
+/* RIGHT SIDE */
+#right{
+	float: right;
+	margin-right: 50px;
+	width: 400px;
+	text-align: left;
+}
+#logo{
+	margin-top: 30px;
+	margin-left: 150px;
+}
+#slogan{
+	font-family: descriptionFont;
+	font-size: 20px;
+	margin-left: 115px;
+}
+#phoneShot{
+	margin-top: -2px;
+}
+/*MEDIA QUERIES */
+@media screen and (max-width: 700px){
+	#wrapper{
+		width: 360px;
+	}
+}
